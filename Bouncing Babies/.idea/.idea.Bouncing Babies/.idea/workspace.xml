@@ -21,9 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="73d59ca9-66ed-4d52-b5c0-fc5fafa10a03" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bouncing Babies/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bouncing Babies/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Preferences.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Preferences.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BabySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BabySpawner.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +50,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/StatsManager.cs" />
         <option value="$PROJECT_DIR$/Assets/SceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/DialogManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BabySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Options.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Baby.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Preferences.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BabySpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
       </list>
     </option>
   </component>
@@ -107,6 +106,7 @@
       <workItem from="1611860336874" duration="1990000" />
       <workItem from="1611864014734" duration="615000" />
       <workItem from="1611875306975" duration="1036000" />
+      <workItem from="1611876573101" duration="159000" />
     </task>
     <servers />
   </component>

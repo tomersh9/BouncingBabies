@@ -14,6 +14,7 @@ public class BabySpawner : MonoBehaviour {
 
     private void SpawnBaby() {
         Instantiate(babyPrefab, spawnPoints[Random.Range(0, spawnPoints.Length)].position, Quaternion.identity);
+        AudioManager.GetInstance().PlayBabySpawnSfx();
     }
 
     void Update() {
