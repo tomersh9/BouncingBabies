@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -27,6 +28,8 @@ public class AudioManager : MonoBehaviour {
     private void Start() {
         _audioSource.mute = !Preferences.GetToggleSfx();
     }
+
+    public void ToggleSfx() => _audioSource.mute = !_audioSource.mute;
     
     public void PlayBabyJumpSfx() => _audioSource.PlayOneShot(babyJumpSfx,0.7f);
     public void PlayHitSfx() => _audioSource.PlayOneShot(hitSfx,0.75f);

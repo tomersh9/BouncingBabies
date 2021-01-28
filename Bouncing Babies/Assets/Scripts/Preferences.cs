@@ -13,6 +13,7 @@ public class Preferences : MonoBehaviour {
             result = 1;
         }
         PlayerPrefs.SetInt(SFX, result); // 0 mute, 1 volume
+        AudioManager.GetInstance().ToggleSfx();
     }
 
     public static bool GetToggleSfx() => PlayerPrefs.GetInt(SFX) == 1; //is muted?
