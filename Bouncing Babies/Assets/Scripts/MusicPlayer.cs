@@ -15,4 +15,7 @@ public class MusicPlayer : MonoBehaviour
         }
         _audioSource = GetComponent<AudioSource>();
     }
+    
+    //called from the Options Script
+    public void SetMusicPlayerVolume(float volume) => _audioSource.volume = volume;
 }

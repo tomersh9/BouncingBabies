@@ -24,6 +24,10 @@ public class AudioManager : MonoBehaviour {
     }
     #endregion
     
+    private void Start() {
+        _audioSource.mute = !Preferences.GetToggleSfx();
+    }
+    
     public void PlayBabyJumpSfx() => _audioSource.PlayOneShot(babyJumpSfx,0.7f);
     public void PlayHitSfx() => _audioSource.PlayOneShot(hitSfx,0.75f);
     public void PlayScoreSfx() => _audioSource.PlayOneShot(scoreSfx,0.85f);

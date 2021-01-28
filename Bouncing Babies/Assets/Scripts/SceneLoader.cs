@@ -5,7 +5,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour {
-
     [SerializeField] private GameObject mainLabel;
     [SerializeField] private GameObject aboutLabel;
 
@@ -20,6 +19,10 @@ public class SceneLoader : MonoBehaviour {
 
     public void LoadMenuScene() {
         SceneManager.LoadScene("MenuScene");
+    }
+
+    public void LoadSettingsScene() {
+        SceneManager.LoadScene("SettingsScene");
     }
 
     public void QuitGame() {
