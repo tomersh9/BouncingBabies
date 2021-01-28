@@ -20,27 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73d59ca9-66ed-4d52-b5c0-fc5fafa10a03" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Bouncing Babies/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bouncing Babies/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Bouncing Babies/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Bouncing Babies/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Play.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Play.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Play.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Play.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Quit.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Quit.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Quit.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Quit.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Title.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Title.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Title.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Title.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MenuScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MusicPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Baby.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Baby.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,11 +41,9 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/ScoreDisplay.cs" />
         <option value="$PROJECT_DIR$/Assets/WaveDisplay.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/ScoreZone.cs" />
         <option value="$PROJECT_DIR$/Assets/DeadZone.cs" />
         <option value="$PROJECT_DIR$/Assets/StatsManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Baby.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DeadZone.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScoreZone.cs" />
         <option value="$PROJECT_DIR$/Assets/MusicPlayer.cs" />
@@ -76,6 +56,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Preferences.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Baby.cs" />
       </list>
     </option>
   </component>
@@ -121,7 +103,8 @@
       <updated>1611827087114</updated>
       <workItem from="1611827093971" duration="9066000" />
       <workItem from="1611838278992" duration="16939000" />
-      <workItem from="1611860336874" duration="1797000" />
+      <workItem from="1611860336874" duration="1990000" />
+      <workItem from="1611864014734" duration="147000" />
     </task>
     <servers />
   </component>
@@ -140,6 +123,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

@@ -4,11 +4,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Baby : MonoBehaviour {
-    
     [SerializeField] private float pushForce = 5f;
     [SerializeField] private float pushX = 2.5f;
     [SerializeField] private float pushy = 2.5f;
-    
+
     private Rigidbody2D _rigidbody2D;
 
     private void Awake() {
@@ -22,7 +21,7 @@ public class Baby : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D other) {
         if (other.gameObject.CompareTag("Trampoline")) {
-            _rigidbody2D.velocity += new Vector2(pushX,pushy);
+            _rigidbody2D.velocity += new Vector2(pushX, pushy);
             AudioManager.GetInstance().PlayBabyJumpSfx();
         }
     }
