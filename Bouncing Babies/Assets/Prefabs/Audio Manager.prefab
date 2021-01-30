@@ -141,5 +141,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   babyJumpSfx: {fileID: 8300000, guid: 701abe83967ad6646a1ce685ac7df347, type: 3}
+  babySpawnSfx: {fileID: 8300000, guid: 6cba078d79e08844b8dc5b5b680618fc, type: 3}
   hitSfx: {fileID: 8300000, guid: 7e50a3be53f63c14db4bccfb38072d3d, type: 3}
   scoreSfx: {fileID: 8300000, guid: 0277262d4bc42724b8f3ab3b3b82b3db, type: 3}

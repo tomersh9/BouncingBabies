@@ -12,7 +12,6 @@
           <e p="BabySpawner.cs" t="Include" />
           <e p="DeadZone.cs" t="Include" />
           <e p="DialogManager.cs" t="Include" />
-          <e p="LifeDisplay.cs" t="Include" />
           <e p="MusicPlayer.cs" t="Include" />
           <e p="Options.cs" t="Include" />
           <e p="Player.cs" t="Include" />
